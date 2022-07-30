@@ -1,0 +1,23 @@
+{
+  "name": "ts-dev-env-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/src/main.ts",
+  "scripts": {
+    "start": "tsc .\\src\\main.ts && node .\\src\\main.js",
+    "start-ts-node": "ts-node .\\src\\main.ts",
+    "build": "tsc .\\src\\main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "yargs": "^17.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.7",
+    "@types/yargs": "^17.0.8"
+  }
+}
